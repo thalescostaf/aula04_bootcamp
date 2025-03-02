@@ -33,7 +33,7 @@ livro_02: Dict[str, Any] = {
 
 
 # Como imprimir todos os itens do dicionário
-lista_elementos: list = livro.items()
+lista_elementos: list = livro_01.items()
 for elemento in lista_elementos:
     print(elemento)
 
